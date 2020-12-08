@@ -48,6 +48,12 @@ html {
 .title-sm {
     font: 700 3rem "Montserrat", sans-serif;
 }
+.title-xs {
+    font: 300 2.4rem "Montserrat", sans-serif;
+}
+.text-sm {
+    font: 300 1.6rem "Montserrat", sans-serif;
+}
 .text-normal {
     font: 300 2.1rem "Montserrat", sans-serif;
 }
@@ -143,9 +149,35 @@ li.carousel-indicators__indicator:hover {
     padding-bottom: 6.9rem;
     color: #FFFFFF;
 }
+.free-delivery__row {
+    padding: 0;
+    margin: 0;
+}
 .free-delivery__title {
     margin-bottom: 2.3rem;
 }
 .free-delivery__span {
     font-weight: 400;
+}
+
+/*COLLECTIONS*/
+
+.collections__man {
+    padding-top: 6.1rem;
+    background: #F9F6F1;
+}
+.collections__woman {
+    padding-top: 6.1rem;
+    background: #F4F4F4;
+}
+.collections__title {
+    text-transform: uppercase;
+}
+.collections__span {
+    font-weight: 500;
+}
+.collections__img {
+    padding: 0;
+    width: 19rem;
+    height: 17.1rem;
 }
