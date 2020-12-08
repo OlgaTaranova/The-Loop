@@ -32,10 +32,19 @@
 html {
    font-size: 10px;
 }
-/* .content-wrapper {
-    padding-left: 21%;
-    padding-right: 21%;
-} */
+.btn {
+    width: 24rem;
+    height: 5.5rem;
+    background: #D7B399;
+    border: none;
+    font: 400 1.6rem "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn:hover {
+    background: #da925f;
+    color: #FFFFFF;
+}
 
 /*HEADER*/
 
@@ -88,10 +97,34 @@ html {
     text-decoration: none;
 }
 
+/*WINTER-SELL*/
 
 .winter-sell {
     padding-top: 133px;
+    padding-bottom: 7rem;
 }
-.sale {
-    display: flex;
+
+.sale__title {
+    font: 400 3rem "Montserrat", sans-serif;
+    color: #000000;
+    margin-bottom: 3.5rem;
+}
+.sale__attantion {
+    font: 700 5.5rem "Montserrat", sans-serif;
+    color: #000000;
+    margin-bottom: 5.5rem;
+}
+li.carousel-indicators__indicator {
+    margin-right: 1.5rem;
+    margin-left: 0;
+    width: 4rem;
+    height: 0.7rem;
+    background: #CECECE;
+    border: none;
+}
+li.carousel-indicators__indicator:last-of-type {
+    margin-right: 0;
+}
+li.carousel-indicators__indicator:hover {
+    background: #D7B399;
 }
