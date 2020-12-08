@@ -45,6 +45,12 @@ html {
     background: #da925f;
     color: #FFFFFF;
 }
+.title-sm {
+    font: 700 3rem "Montserrat", sans-serif;
+}
+.text-normal {
+    font: 300 2.1rem "Montserrat", sans-serif;
+}
 
 /*HEADER*/
 
@@ -127,4 +133,19 @@ li.carousel-indicators__indicator:last-of-type {
 }
 li.carousel-indicators__indicator:hover {
     background: #D7B399;
+}
+
+/*FREE DELIVERY*/
+
+.free-delivery {
+    background: #212121;
+    padding-top: 8rem;
+    padding-bottom: 6.9rem;
+    color: #FFFFFF;
+}
+.free-delivery__title {
+    margin-bottom: 2.3rem;
+}
+.free-delivery__span {
+    font-weight: 400;
 }
