@@ -96,6 +96,20 @@ html {
     font: 500 1.4rem "Montserrat", sans-serif;
     color: #212121;  
 }
+
+.dropdown-menu { 
+    background: #f9f6f1;
+    box-shadow: 0 0 52px #e8dada;
+    border: none;
+ } 
+.dropdown-item {
+    font-size: 16px;
+}
+.dropdown-item:hover {
+    color: blue;
+}
+
+
 .basket-img {
     width: 30px;
     height: 26.28px;
@@ -162,22 +176,53 @@ li.carousel-indicators__indicator:hover {
 
 /*COLLECTIONS*/
 
-.collections__man {
-    padding-top: 6.1rem;
-    background: #F9F6F1;
-}
-.collections__woman {
-    padding-top: 6.1rem;
+
+ .collections {
+    background: linear-gradient(to right, #F9F6F1, #F9F6F1 50%, #F4F4F4 51%, #F4F4F4 100%);
+  }
+  .men-collection,
+  .women-collection {
+    position: relative;
+    padding: 60px 15px 58px;
+  }
+  .men-collection {
+   background: #F9F6F1;
+  }
+  .women-collection {
     background: #F4F4F4;
-}
-.collections__title {
-    text-transform: uppercase;
-}
-.collections__span {
+  }
+  .collections__title {
+    margin-bottom: 25px;
+    font: 300 24px 'Montserrat', sans-serif;
+    color: #000000;
+  }
+  .collections__title strong {
     font-weight: 500;
-}
-.collections__img {
-    padding: 0;
-    width: 19rem;
-    height: 17.1rem;
-}
+  }
+  .collections__subtitle {
+    margin-bottom: 40px;
+    font: 300 16px 'Montserrat', sans-serif;
+    color: #000000;
+  }
+  .collections__btn {
+    width: 80px;
+    height: 30px;
+    
+    border: none;
+    background: #D7B399;
+    
+    color: #fff;
+    font: 300 24px 'Montserrat', 'Roboto';
+  }
+  .collections__btn:hover {
+    background: #C9A68C;
+  }
+  .collections__img {
+    display: block;
+    width: 190px;
+    height: 171px;
+    
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+  }
