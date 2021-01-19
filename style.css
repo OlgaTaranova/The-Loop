@@ -302,7 +302,10 @@ li.carousel-indicators__indicator:hover {
                 url(src/images/bottom_left_corner.png) bottom left no-repeat,
                 url(src/images/bottom_right_corner.png) bottom right no-repeat;
   }
-  
+  .new-models__item:hover {
+    box-shadow: 0 0 25px rgb(233, 233, 233);
+    cursor: pointer;
+  }
   .card-img-top {
     width: 205px;
     height: 211px;
