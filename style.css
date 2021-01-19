@@ -167,6 +167,9 @@ li.carousel-indicators__indicator:hover {
     padding: 0;
     margin: 0;
 }
+.free-delivery__col {
+    text-align: center;
+}
 .free-delivery__title {
     margin-bottom: 2.3rem;
 }
