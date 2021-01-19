@@ -267,3 +267,67 @@ li.carousel-indicators__indicator:hover {
     cursor: pointer;
   }
   
+
+  /*NEW MODELS*/
+
+  section.new-models {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .new-models__title {
+    margin-bottom: 100px;
+    
+    text-transform: uppercase;
+    font: 700 36px 'Montserrat', sans-serif;
+    color: #212121;
+  }
+  div.new-models__container {
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 255px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .new-models__item {
+    width: 255px;
+    height: 350px;
+    padding: 22px 22px 25px;
+
+    border: none;
+    background: url(src/images/top_left_corner.png) top left no-repeat,
+                url(src/images/top_right_corner.png) top right no-repeat,
+                url(src/images/bottom_left_corner.png) bottom left no-repeat,
+                url(src/images/bottom_right_corner.png) bottom right no-repeat;
+  }
+  
+  .card-img-top {
+    width: 205px;
+    height: 211px;
+   
+    background: url(src/images/new_models.png);
+  }
+  .card-title {
+    width: 112px;
+    font: 600 14px 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000000;
+  }
+  .card-text {
+    font: 700 18px 'Montserrat', sans-serif;
+    color: #D7B399;
+  }
+  .new-models__btn {
+    width: 220px;
+    height: 55px;
+    border: none;
+    background: #D7B399;
+    
+    font:  400 16px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+  .new-models__btn:hover {
+    background: red;
+  }
