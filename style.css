@@ -229,3 +229,41 @@ li.carousel-indicators__indicator:hover {
     bottom: 0;
     right: 15px;
   }
+
+  /*CATEGORIES*/
+
+  .categories__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .category {
+    position: relative;
+    width: 277px;
+    height: 236px;
+  }
+  .category:hover {
+    box-shadow: inset 0 0 70px 0 #E6E4E3;
+    cursor: pointer;
+  }
+  .category:nth-child(odd) {
+    background: #F4F4F4;
+  }
+  .category:nth-child(even) {
+    background: #F9F6F1;
+  }
+  .category__name {
+    position: absolute;
+    left: 30px;
+    bottom: 24px;
+    
+    font: 300 21px 'Montserrat', sans-serif;
+    color: #000000;
+  }
+  .category__name:hover {
+  /*   text-shadow: 0 0 1px gray; */
+    color: #565656;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
