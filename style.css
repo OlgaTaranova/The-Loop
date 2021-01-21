@@ -378,3 +378,56 @@ li.carousel-indicators__indicator:hover {
   .subscribe__btn:hover {
     background: #da925f;
   }
+
+  /*DISCOUNTS*/
+
+  /*Переименовать все классы в этой секции!!!!!!!!!!!!!!!!!!!*/
+
+section.discounts{
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discounts__title {
+  margin-bottom: 100px;
+  
+  text-transform: uppercase;
+  font: 700 36px 'Montserrat', sans-serif;
+  color: #212121;
+}
+div.discounts__container {
+  width: 100%;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 255px);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.discounts__item {
+  width: 255px;
+  height: 350px;
+  padding: 22px 22px 25px;
+  border: none;
+  background: url(src/images/top_left_corner.png) top left no-repeat,
+                url(src/images/top_right_corner.png) top right no-repeat,
+                url(src/images/bottom_left_corner.png) bottom left no-repeat,
+                url(src/images/bottom_right_corner.png) bottom right no-repeat;
+  }
+  .discounts__item:hover {
+    box-shadow: 0 0 25px rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+.discounts__btn {
+  width: 220px;
+  height: 55px;
+  border: none;
+  background: #D7B399;
+  
+  font:  400 16px 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+.discounts__btn:hover {
+  background: #da925f;
+}
