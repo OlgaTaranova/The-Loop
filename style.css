@@ -218,7 +218,7 @@ li.carousel-indicators__indicator:hover {
     font: 300 24px 'Montserrat', 'Roboto';
   }
   .collections__btn:hover {
-    background: #C9A68C;
+    background: #da925f;
   }
   .collections__img {
     display: block;
@@ -332,5 +332,49 @@ li.carousel-indicators__indicator:hover {
     color: #FFFFFF;
   }
   .new-models__btn:hover {
-    background: red;
+    background: #da925f;
+  }
+
+  /*SUBSCRIBE*/
+
+  .subscribe {
+    padding: 70px 0;
+    background: #212121;
+  }
+  .subscribe__title {
+    font: 700 30px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+  .subscribe__form {
+    display: flex;
+  }
+  input.subscribe__email {
+    width: 255px;
+    margin-right: 25px;
+    padding: 13px 20px 12px;
+    background: #F9F6F1;
+    border: none;
+    
+    font: 400 14px 'Montserrat', sans-serif;
+    color: #000 !important;
+  }
+  .subscribe__email:focus {
+    outline: none;
+  }
+  .subscribe__email::placeholder {
+    color: #8D8D8D;
+    font: 300 12px 'Montserrat', sans-serif;
+  
+  }
+  .subscribe__btn {
+    width: 185px;
+    height: 40px;
+    border: none;
+    background: #D7B399;
+    
+    font: 500 14px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+  .subscribe__btn:hover {
+    background: #da925f;
   }
