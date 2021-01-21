@@ -96,7 +96,10 @@ html {
     font: 500 1.4rem "Montserrat", sans-serif;
     color: #212121;  
 }
-
+.navbar-toggler:focus, .navbar-toggler:hover {
+  text-decoration: none;
+  outline: none;
+}
 .dropdown-menu { 
     background: #f9f6f1;
     box-shadow: 0 0 52px #e8dada;
@@ -290,6 +293,7 @@ li.carousel-indicators__indicator:hover {
     grid-template-columns: repeat(auto-fill, 255px);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+    justify-content: center;
   }
   .new-models__item {
     width: 255px;
@@ -401,6 +405,7 @@ div.discounts__container {
   grid-template-columns: repeat(auto-fill, 255px);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  justify-content: center;
 }
 .discounts__item {
   width: 255px;
@@ -437,6 +442,7 @@ div.discounts__container {
 }
 .footer .row {
   width: 100%;
+ 
 }
 .footer__black {
   padding: 80px 0;
@@ -498,3 +504,16 @@ div.copyright {
   font: 400 14px 'Montserrat', sans-serif;
   color: #212121;
 }
+/* @media (max-width: 1000px) {
+  .footer {
+    padding: 0 15%;
+  }
+  .footer .logo {
+    font-size: 24px;
+    width: auto;
+  }
+  .footer__info {
+    width: auto;
+    max-width: 300px;
+  }
+} */
