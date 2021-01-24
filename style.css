@@ -64,14 +64,14 @@ html {
     background-color: #F9F6F1;
 }
 .header {
-    padding-top: 56px;
+    padding-top: 5.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo {
     position: absolute;
-    left: calc(50% - 86px);
+    left: calc(50% - 8.6rem);
     z-index: 1;
 }
 .logo__name {
@@ -92,7 +92,7 @@ html {
     justify-content: space-between;
 }
 .nav-link {
-    margin-right: 25px;
+    margin-right: 2.5rem;
     font: 500 1.4rem "Montserrat", sans-serif;
     color: #212121;  
 }
@@ -102,11 +102,11 @@ html {
 }
 .dropdown-menu { 
     background: #f9f6f1;
-    box-shadow: 0 0 52px #e8dada;
+    box-shadow: 0 0 5.2rem #e8dada;
     border: none;
  } 
 .dropdown-item {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .dropdown-item:hover {
     color: blue;
@@ -114,13 +114,13 @@ html {
 
 
 .basket-img {
-    width: 30px;
-    height: 26.28px;
+    width: 3rem;
+    height: 2.628rem;
     margin-right: 20px;
 }
 .pending-img {
-    width: 47.75px;
-    height: 17px;
+    width: 4.775rem;
+    height: 1.7rem;
 }
 .basket-link:hover {
     text-decoration: none;
@@ -129,7 +129,7 @@ html {
 /*WINTER-SELL*/
 
 .winter-sell {
-    padding-top: 133px;
+    padding-top: 13.3rem;
     padding-bottom: 7rem;
 }
 
@@ -189,7 +189,7 @@ li.carousel-indicators__indicator:hover {
   .men-collection,
   .women-collection {
     position: relative;
-    padding: 60px 15px 58px;
+    padding: 6rem 1.5rem 5.8rem;
   }
   .men-collection {
    background: #F9F6F1;
@@ -198,39 +198,39 @@ li.carousel-indicators__indicator:hover {
     background: #F4F4F4;
   }
   .collections__title {
-    margin-bottom: 25px;
-    font: 300 24px 'Montserrat', sans-serif;
+    margin-bottom: 2.5rem;
+    font: 300 2.4rem 'Montserrat', sans-serif;
     color: #000000;
   }
   .collections__title strong {
     font-weight: 500;
   }
   .collections__subtitle {
-    margin-bottom: 40px;
-    font: 300 16px 'Montserrat', sans-serif;
+    margin-bottom: 4rem;
+    font: 300 1.6rem 'Montserrat', sans-serif;
     color: #000000;
   }
   .collections__btn {
-    width: 80px;
-    height: 30px;
+    width: 8rem;
+    height: 3rem;
     
     border: none;
     background: #D7B399;
     
     color: #fff;
-    font: 300 24px 'Montserrat', 'Roboto';
+    font: 300 2.4rem 'Montserrat', 'Roboto';
   }
   .collections__btn:hover {
     background: #da925f;
   }
   .collections__img {
     display: block;
-    width: 190px;
-    height: 171px;
+    width: 19rem;
+    height: 17.1rem;
     
     position: absolute;
     bottom: 0;
-    right: 15px;
+    right: 1.5rem;
   }
 
   /*CATEGORIES*/
@@ -242,11 +242,11 @@ li.carousel-indicators__indicator:hover {
   }
   .category {
     position: relative;
-    width: 277px;
-    height: 236px;
+    width: 27.7rem;
+    height: 23.6rem;
   }
   .category:hover {
-    box-shadow: inset 0 0 70px 0 #E6E4E3;
+    box-shadow: inset 0 0 7rem 0 #E6E4E3;
     cursor: pointer;
   }
   .category:nth-child(odd) {
@@ -257,14 +257,13 @@ li.carousel-indicators__indicator:hover {
   }
   .category__name {
     position: absolute;
-    left: 30px;
-    bottom: 24px;
+    left: 3rem;
+    bottom: 2.4rem;
     
     font: 300 21px 'Montserrat', sans-serif;
     color: #000000;
   }
   .category__name:hover {
-  /*   text-shadow: 0 0 1px gray; */
     color: #565656;
     text-decoration: none;
     cursor: pointer;
@@ -274,31 +273,31 @@ li.carousel-indicators__indicator:hover {
   /*NEW MODELS*/
 
   section.new-models {
-    padding: 150px 0;
+    padding: 15rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .new-models__title {
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
     
     text-transform: uppercase;
-    font: 700 36px 'Montserrat', sans-serif;
+    font: 700 3.6rem 'Montserrat', sans-serif;
     color: #212121;
   }
   div.new-models__container {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 255px);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 25.5rem);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
     justify-content: center;
   }
   .new-models__item {
-    width: 255px;
-    height: 350px;
-    padding: 22px 22px 25px;
+    width: 25.5rem;
+    height: 35rem;
+    padding: 2.2rem 2.2rem 2.5rem;
 
     border: none;
     background: url(src/images/top_left_corner.png) top left no-repeat,
@@ -307,32 +306,32 @@ li.carousel-indicators__indicator:hover {
                 url(src/images/bottom_right_corner.png) bottom right no-repeat;
   }
   .new-models__item:hover {
-    box-shadow: 0 0 25px rgb(233, 233, 233);
+    box-shadow: 0 0 2.5rem rgb(233, 233, 233);
     cursor: pointer;
   }
   .card-img-top {
-    width: 205px;
-    height: 211px;
+    width: 20.5rem;
+    height: 21.1rem;
    
     background: url(src/images/new_models.png);
   }
   .card-title {
-    width: 112px;
-    font: 600 14px 'Montserrat', sans-serif;
+    width: 11.2rem;
+    font: 600 1.4rem 'Montserrat', sans-serif;
     text-align: center;
     color: #000000;
   }
   .card-text {
-    font: 700 18px 'Montserrat', sans-serif;
+    font: 700 1.8rem 'Montserrat', sans-serif;
     color: #D7B399;
   }
   .new-models__btn {
-    width: 220px;
-    height: 55px;
+    width: 22rem;
+    height: 5.5rem;
     border: none;
     background: #D7B399;
     
-    font:  400 16px 'Montserrat', sans-serif;
+    font:  400 1.6rem 'Montserrat', sans-serif;
     color: #FFFFFF;
   }
   .new-models__btn:hover {
@@ -342,24 +341,24 @@ li.carousel-indicators__indicator:hover {
   /*SUBSCRIBE*/
 
   .subscribe {
-    padding: 70px 0;
+    padding: 7rem 0;
     background: #212121;
   }
   .subscribe__title {
-    font: 700 30px 'Montserrat', sans-serif;
+    font: 700 3rem 'Montserrat', sans-serif;
     color: #FFFFFF;
   }
   .subscribe__form {
     display: flex;
   }
   input.subscribe__email {
-    width: 255px;
-    margin-right: 25px;
-    padding: 13px 20px 12px;
+    width: 25.5rem;
+    margin-right: 2.5rem;
+    padding: 1.3rem 2rem 1.2rem;
     background: #F9F6F1;
     border: none;
     
-    font: 400 14px 'Montserrat', sans-serif;
+    font: 400 1.4rem 'Montserrat', sans-serif;
     color: #000 !important;
   }
   .subscribe__email:focus {
@@ -367,16 +366,16 @@ li.carousel-indicators__indicator:hover {
   }
   .subscribe__email::placeholder {
     color: #8D8D8D;
-    font: 300 12px 'Montserrat', sans-serif;
+    font: 300 1.2rem 'Montserrat', sans-serif;
   
   }
   .subscribe__btn {
-    width: 185px;
-    height: 40px;
+    width: 18.5rem;
+    height: 4rem;
     border: none;
     background: #D7B399;
     
-    font: 500 14px 'Montserrat', sans-serif;
+    font: 500 1.4rem 'Montserrat', sans-serif;
     color: #FFFFFF;
   }
   .subscribe__btn:hover {
@@ -386,31 +385,31 @@ li.carousel-indicators__indicator:hover {
   /*DISCOUNTS*/
 
 section.discounts{
-  padding: 150px 0;
+  padding: 15rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .discounts__title {
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
   
   text-transform: uppercase;
-  font: 700 36px 'Montserrat', sans-serif;
+  font: 700 3.6rem 'Montserrat', sans-serif;
   color: #212121;
 }
 div.discounts__container {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 255px);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-template-columns: repeat(auto-fill, 25.5rem);
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
   justify-content: center;
 }
 .discounts__item {
-  width: 255px;
-  height: 350px;
-  padding: 22px 22px 25px;
+  width: 25.5rem;
+  height: 35rem;
+  padding: 2.2rem 2.2rem 2.5rem;
   border: none;
   background: url(src/images/top_left_corner.png) top left no-repeat,
                 url(src/images/top_right_corner.png) top right no-repeat,
@@ -418,17 +417,17 @@ div.discounts__container {
                 url(src/images/bottom_right_corner.png) bottom right no-repeat;
   }
   .discounts__item:hover {
-    box-shadow: 0 0 25px rgb(233, 233, 233);
+    box-shadow: 0 0 2.5rem rgb(233, 233, 233);
     cursor: pointer;
 }
 
 .discounts__btn {
-  width: 220px;
-  height: 55px;
+  width: 22rem;
+  height: 5.5rem;
   border: none;
   background: #D7B399;
   
-  font:  400 16px 'Montserrat', sans-serif;
+  font:  400 1.6rem 'Montserrat', sans-serif;
   color: #FFFFFF;
 }
 .discounts__btn:hover {
@@ -445,7 +444,7 @@ div.discounts__container {
  
 }
 .footer__black {
-  padding: 80px 0;
+  padding: 8rem 0;
   background: #212121;
 }
 .footer .logo {
@@ -456,23 +455,23 @@ div.discounts__container {
   width: 20.1rem;
   height: 4rem;
 
-  margin-bottom: 39px;
-  padding-left: 60px;
+  margin-bottom: 3.9rem;
+  padding-left: 6rem;
   text-transform: uppercase;
-  font: 700 24px 'Montserrat', sans-serif;
+  font: 700 2.4rem 'Montserrat', sans-serif;
   line-height: 4rem;
   color: #FFFFFF;
 }
 .footer__info {
-  width: 200px;
-  font: 400 14px 'Montserrat', sans-serif;
+  width: 20rem;
+  font: 400 1.4rem 'Montserrat', sans-serif;
   color: #FFFFFF;
 }
 .footer__links-title {
-  margin-bottom: 20px;
-  padding: 10px 0 10px 0;
+  margin-bottom: 2rem;
+  padding: 1rem 0 1rem 0;
   text-transform: uppercase;
-  font: 700 10px 'Montserrat', sans-serif;
+  font: 700 1rem 'Montserrat', sans-serif;
   color: #FFFFFF;
 }
 .footer__links-list {
@@ -484,7 +483,7 @@ div.discounts__container {
 }
 .footer__link {
   text-decoration: none;
-  font: 400 14px 'Montserrat', sans-serif;
+  font: 400 1.4rem 'Montserrat', sans-serif;
   color: #CBCFD4;
 }
 .footer__link:hover {
@@ -500,20 +499,7 @@ div.copyright {
   padding: 0;
 }
 .copyright__info {
-  padding: 30px 0 23px;
-  font: 400 14px 'Montserrat', sans-serif;
+  padding: 3rem 0 2.3rem;
+  font: 400 1.4rem 'Montserrat', sans-serif;
   color: #212121;
 }
-/* @media (max-width: 1000px) {
-  .footer {
-    padding: 0 15%;
-  }
-  .footer .logo {
-    font-size: 24px;
-    width: auto;
-  }
-  .footer__info {
-    width: auto;
-    max-width: 300px;
-  }
-} */
